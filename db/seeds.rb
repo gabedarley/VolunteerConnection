@@ -23,7 +23,19 @@ organizations = [
     :web_address => 'https://growdatyouthfarm.org/',
     :contact_phone => '504-300-1132', 
     :contact_email => 'info@growdatyouthfarm.org',
-    :category => 'garden'}
+    :category => 'garden'},
+  {:name => 'Take Paws Rescue'
+    :address => ''
+    
+  },
+  {:name => 'Habitat for Humanity'
+    :address => '2900 Elysian Fields Ave, New Orleans, LA 70122'
+    :web_address => 'https://habitat-nola.org/'
+    :contact_phone => '504-861-2077'
+    :contact_email => 'info@habitat-nola.org'
+    :category => 'housing'},
+  {}
+  }
 ]
 
 organizations.each do |org|
