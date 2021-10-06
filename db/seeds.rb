@@ -25,20 +25,19 @@ organizations = [
     :contact_email => 'info@growdatyouthfarm.org',
     :category => 'garden'},
   {:name => 'Take Paws Rescue'
-    :address => ''
-    :web_address => ''
-    :contact_phone => ''
-    :contact_email => ''
-    :category => ''
-    
+    :address => '2730 Banks St, New Orleans, LA 70119'
+    :web_address => 'https://www.takepawsrescue.org/'
+    :contact_phone => None
+    :contact_email => 'Adopt@takepawsrescue.org'
+    :category => 'rescue'
   },
-  {:name => 'Habitat for Humanity'
-    :address => '2900 Elysian Fields Ave, New Orleans, LA 70122'
-    :web_address => 'https://habitat-nola.org/'
-    :contact_phone => '504-861-2077'
-    :contact_email => 'info@habitat-nola.org'
+  {:name => 'Habitat for Humanity',
+    :address => '2900 Elysian Fields Ave, New Orleans, LA 70122',
+    :web_address => 'https://habitat-nola.org/',
+    :contact_phone => '504-861-2077',
+    :contact_email => 'info@habitat-nola.org',
     :category => 'housing'},
-  {}
+  {:name => }
   }
 ]
 
