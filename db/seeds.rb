@@ -26,6 +26,10 @@ organizations = [
     :category => 'garden'},
   {:name => 'Take Paws Rescue'
     :address => ''
+    :web_address => ''
+    :contact_phone => ''
+    :contact_email => ''
+    :category => ''
     
   },
   {:name => 'Habitat for Humanity'
