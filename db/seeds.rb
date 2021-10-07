@@ -27,7 +27,7 @@ organizations = [
   {:name => 'Take Paws Rescue'
     :address => '2730 Banks St, New Orleans, LA 70119'
     :web_address => 'https://www.takepawsrescue.org/'
-    :contact_phone => None
+    :contact_phone => 'n/a'
     :contact_email => 'Adopt@takepawsrescue.org'
     :category => 'rescue'
   },
@@ -37,7 +37,18 @@ organizations = [
     :contact_phone => '504-861-2077',
     :contact_email => 'info@habitat-nola.org',
     :category => 'housing'},
-  {:name => }
+  {:name => 'Audobon Nature Institute'
+   :address => '6500 Magazine St, New Orleans, LA 70118'
+   :web_address => 'https://audubonnatureinstitute.org/'
+   :contact_phone => '504-212-5377'
+   :contact_email => 'volunteer@auduboninstitute.org'
+   :category => 'nature'
+  }
+  {:name =>
+   :address =>
+   :web_address =>
+   :cont
+    
   }
 ]
 
