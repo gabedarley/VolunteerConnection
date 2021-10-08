@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 organizations = [
-  {:name => 'Second Harvest', 
+  {:name => 'Second Harves', 
     :address => '700 Edwards Ave, New Orleans, LA 70123', 
     :web_address => 'https://no-hunger.org/', 
     :contact_phone => '504-734-1322', 
