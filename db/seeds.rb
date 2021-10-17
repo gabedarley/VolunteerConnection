@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 organizations = [
-  {:name => 'Second Harves', 
+  {:name => 'Second Harvest', 
     :address => '700 Edwards Ave, New Orleans, LA 70123', 
     :web_address => 'https://no-hunger.org/', 
     :contact_phone => '504-734-1322', 
@@ -76,4 +76,15 @@ organizations = [
 
 organizations.each do |org|
     Organization.create!(org)
+end
+
+events = [
+  {:name => 'Food Sorting and Packing',
+    :description => 'Volunteers work in the warehouse re-pack room to separate donated food into specific categories and repack food into boxes that go out for distribution to member agencies.',
+    :date => '10/22/2021',
+    :time => '9 am - 12 pm',
+    :link => 'https://shfbgnoa.volunteerhub.com/event/17d82249-caeb-4c1b-87a3-1bc5e6bdf67e'}
+]
+events.each do |event|
+    Event.create!(event)
 end
