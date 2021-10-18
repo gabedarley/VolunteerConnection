@@ -8,8 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
-<div class="container p-5 my-5 bg-primary text-white">
+<div class="container p-5 my-5 bg-light text-dark">
   <h1>Welcome to Volunteer Connect</h1>
-  <p>Click here to get started.</p> 
+  <p><%= link_to 'Find an Event', events_path%></p>
+  <p><%= link_to 'Browse Organizations', organizations_path%></p>
+  
 </div>
 </html>
