@@ -1,6 +1,7 @@
 <%= form_with(model: organization, local: true) do |form| %>
   <% if organization.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation" class="alert alert-danger alert-dismissible" >
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
       <h2><%= pluralize(organization.errors.count, "error") %> prohibited this organization from being saved:</h2>
 
       <ul>
@@ -11,37 +12,37 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field my-2 pt-2 container" >
     <%= form.label :name %>
     <%= form.text_field :name %>
   </div>
 
-  <div class="field">
+  <div class="field my-2 pt-2 container">
     <%= form.label :address %>
     <%= form.text_field :address %>
   </div>
 
-  <div class="field">
+  <div class="field my-2 pt-2 container">
     <%= form.label :web_address %>
     <%= form.text_field :web_address %>
   </div>
 
-  <div class="field">
+  <div class="field my-2 pt-2 container">
     <%= form.label :contact_phone %>
     <%= form.text_field :contact_phone %>
   </div>
 
-  <div class="field">
+  <div class="field my-2 pt-2 container">
     <%= form.label :contact_email %>
     <%= form.text_field :contact_email %>
   </div>
 
-  <div class="field">
+  <div class="field my-2 pt-2 container">
     <%= form.label :category %>
     <%= form.text_field :category %>
   </div>
 
-  <div class="actions">
+  <div class="actions my-2 pt-2 container">
     <%= form.submit %>
   </div>
 <% end %>
