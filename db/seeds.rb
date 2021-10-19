@@ -83,7 +83,22 @@ events = [
     :description => 'Volunteers work in the warehouse re-pack room to separate donated food into specific categories and repack food into boxes that go out for distribution to member agencies.',
     :date => '10/22/2021',
     :time => '9 am - 12 pm',
-    :link => 'https://shfbgnoa.volunteerhub.com/event/17d82249-caeb-4c1b-87a3-1bc5e6bdf67e'}
+    :link => 'https://shfbgnoa.volunteerhub.com/event/17d82249-caeb-4c1b-87a3-1bc5e6bdf67e'},
+  {:name => 'Take Paws Rescue',
+    :description => 'Volunteers pay to play with puppies to raise funding for foster dogs.',
+    :date => '10/18/2021',
+    :time => '9 pm - 12 am',
+    :link => 'https://www.instagram.com/takepawsrescue/' },
+  {:name => 'Show of Love Gala',
+    :description => 'Show of Love Gala will be a wonderful night of food, spirits, and entertainment in order to celebrate and support Split Second Foundation.',
+    :date => '11/04/2021',
+    :time => '7 pm',
+    :link => 'https://www.eventbrite.com/e/2021-show-of-love-gala-tickets-162706033125?aff=ebdssbdestsearch'},
+  {:name => 'Lake Pontchartrain Cleanup',
+    :description => 'Join United By Blue and community partners for a cleanup of Lake Pontchartrain!',
+    :date => '11/13/2021',
+    :time => '10 am - 1 pm',
+    :link => 'https://www.eventbrite.com/e/united-by-blue-lake-pontchartrain-cleanup-new-orleans-la-registration-164391470313?aff=ebdssbdestsearch'}, 
 ]
 events.each do |event|
     Event.create!(event)
