@@ -41,7 +41,7 @@ organizations = [
    :web_address => 'https://audubonnatureinstitute.org/',
    :contact_phone => '504-212-5377',
    :contact_email => 'volunteer@auduboninstitute.org',
-   :category => 'nature'},
+   :category => 'education'},
   {:name => 'Cajun Navy Relief',
    :address => 'Cajun Navy Relief, Inc. PO Box 791632 New Orleans, LA 70179',
    :web_address => 'https://www.cajunnavyrelief.com/',
@@ -66,12 +66,12 @@ organizations = [
    :contact_phone => 'n/a',
    :contact_email => 'kathy@nola4women.org',
    :category => 'advocacy'},
-  {:name => 'Planned Parenthood - New Orleans Health Center',
+  {:name => 'Planned Parenthood New Orleans',
    :address => '4636 S Claiborne Ave Ste 100, New Orleans, LA 70125',
    :web_address => 'https://www.plannedparenthood.org/health-center/louisiana/new-orleans/70125/new-orleans-health-center-3961-91650',
    :contact_phone => '504-897-9200',
    :contact_email => 'n/a',
-   :category => 'advocacy'}
+   :category => 'health'}
 ]
 
 organizations.each do |org|

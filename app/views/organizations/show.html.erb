@@ -23,7 +23,7 @@
 
 <p>
   <strong>Web address:</strong>
-  <%= @organization.web_address %>
+  <%= link_to "Explore #{@organization.name}", "#{@organization.web_address}" %>
 </p>
 
 <p>
