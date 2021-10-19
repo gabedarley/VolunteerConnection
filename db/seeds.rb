@@ -35,7 +35,7 @@ organizations = [
     :web_address => 'https://habitat-nola.org/',
     :contact_phone => '504-861-2077',
     :contact_email => 'info@habitat-nola.org',
-    :category => 'housing'},
+    :category => 'build'},
   {:name => 'Audobon Nature Institute',
    :address => '6500 Magazine St, New Orleans, LA 70118',
    :web_address => 'https://audubonnatureinstitute.org/',
@@ -65,13 +65,13 @@ organizations = [
    :web_address => 'https://www.nola4women.org/',
    :contact_phone => 'n/a',
    :contact_email => 'kathy@nola4women.org',
-   :category => 'gender equity'},
+   :category => 'advocacy'},
   {:name => 'Planned Parenthood - New Orleans Health Center',
    :address => '4636 S Claiborne Ave Ste 100, New Orleans, LA 70125',
    :web_address => 'https://www.plannedparenthood.org/health-center/louisiana/new-orleans/70125/new-orleans-health-center-3961-91650',
    :contact_phone => '504-897-9200',
    :contact_email => 'n/a',
-   :category => 'reproductive rights'}
+   :category => 'advocacy'}
 ]
 
 organizations.each do |org|
