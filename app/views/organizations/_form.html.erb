@@ -2,7 +2,7 @@
   <% if organization.errors.any? %>
     <div id="error_explanation" class="alert alert-danger alert-dismissible" >
       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-      <h2><%= pluralize(organization.errors.count, "error") %> prohibited this organization from being saved:</h2>
+      <!--<h2><%= pluralize(organization.errors.count, "error") %> in your input</h2>-->
 
       <ul>
         <% organization.errors.full_messages.each do |message| %>
@@ -12,37 +12,71 @@
     </div>
   <% end %>
 
-  <div class="field my-2 pt-2 container" >
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+  <div class="field row my-2 pt-2" >
+    <div class="col-sm-2">
+      <%= form.label :name %>
+    </div>
+    <div class="col-sm-10">
+      <%= form.text_field :name %>
+    </div>
+    
   </div>
 
-  <div class="field my-2 pt-2 container">
-    <%= form.label :address %>
-    <%= form.text_field :address %>
+  <div class="field row my-2 pt-2" >
+    <div class="col-sm-2">
+      <%= form.label :address %>
+    </div>
+    <div class="col-sm-10">
+      <%= form.text_field :address %>
+    </div>
+    
   </div>
 
-  <div class="field my-2 pt-2 container">
-    <%= form.label :web_address %>
-    <%= form.text_field :web_address %>
+  <div class="field row my-2 pt-2" >
+    <div class="col-sm-2">
+      <%= form.label :web_address %>
+    </div>
+    <div class="col-sm-10">
+      <%= form.text_field :web_address %>
+    </div>
+    
   </div>
 
-  <div class="field my-2 pt-2 container">
-    <%= form.label :contact_phone %>
-    <%= form.text_field :contact_phone %>
+  <div class="field row my-2 pt-2" >
+    <div class="col-sm-2">
+      <%= form.label :contact_phone %>
+      <%= form.label :contact_phone , "(XXX-XXX-XXXX)"%>
+    </div>
+    <div class="col-sm-10">
+      <%= form.text_field :contact_phone %>
+    </div>
+    
   </div>
 
-  <div class="field my-2 pt-2 container">
-    <%= form.label :contact_email %>
-    <%= form.text_field :contact_email %>
+  <div class="field row my-2 pt-2" >
+    <div class="col-sm-2">
+      <%= form.label :contact_email %>
+    </div>
+    <div class="col-sm-10">
+      <%= form.text_field :contact_email %>
+    </div>
+    
   </div>
 
-  <div class="field my-2 pt-2 container">
-    <%= form.label :category %>
-    <%= form.text_field :category %>
+  <div class="field row my-2 pt-2" >
+    <div class="col-sm-2">
+      <%= form.label :category %>
+    </div>
+    <div class="col-sm-10">
+      <%= form.text_field :category %>
+    </div>
+    
   </div>
 
-  <div class="actions my-2 pt-2 container">
-    <%= form.submit %>
+  <div class="field row my-2 pt-2" >
+    <div class="col-sm-2">
+      <%= form.submit %>
+    </div>
   </div>
+
 <% end %>

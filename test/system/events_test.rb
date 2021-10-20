@@ -16,9 +16,10 @@ class EventsTest < ApplicationSystemTestCase
 
     fill_in "Date", with: @event.date
     fill_in "Description", with: @event.description
+    fill_in "End time", with: @event.end_time
     fill_in "Link", with: @event.link
     fill_in "Name", with: @event.name
-    fill_in "Time", with: @event.time
+    fill_in "Start time", with: @event.start_time
     click_on "Create Event"
 
     assert_text "Event was successfully created"
@@ -31,9 +32,10 @@ class EventsTest < ApplicationSystemTestCase
 
     fill_in "Date", with: @event.date
     fill_in "Description", with: @event.description
+    fill_in "End time", with: @event.end_time
     fill_in "Link", with: @event.link
     fill_in "Name", with: @event.name
-    fill_in "Time", with: @event.time
+    fill_in "Start time", with: @event.start_time
     click_on "Update Event"
 
     assert_text "Event was successfully updated"

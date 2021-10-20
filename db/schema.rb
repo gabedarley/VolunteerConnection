@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_17_144542) do
+ActiveRecord::Schema.define(version: 2021_10_19_224016) do
 
   create_table "events", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.string "date"
-    t.string "time"
+    t.string "start_time"
+    t.string "end_time"
     t.string "link"
   end
 
