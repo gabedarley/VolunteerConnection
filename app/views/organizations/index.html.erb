@@ -30,7 +30,7 @@
   <tbody>
     <% @organizations.each do |organization| %>
       <tr>
-        <td><%= organization.name %></td>
+        <td><%= link_to "#{organization.name}", "#{organization.web_address}" %></td>
 <!--         <td><%= organization.address %></td> -->
 <!--         <td><%= organization.web_address %></td> -->
 <!--         <td><%= organization.contact_phone %></td> -->
@@ -47,7 +47,5 @@
 <br>
 
 <%= link_to 'New Organization', new_organization_path %>
-  <br>
-  <br>
-<h3><%= link_to "Go Home", home_path %></h3>
+
 </div>

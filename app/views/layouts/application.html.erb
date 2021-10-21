@@ -8,9 +8,23 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="https://spark-small-3000.codio.io/home/index">Home</a>
+      <a class="nav-item nav-link" href="https://spark-small-3000.codio.io/organizations">Organizations</a>
+      <a class="nav-item nav-link" href="https://spark-small-3000.codio.io/events">Events</a>
+    </div>
+  </div>
+</nav>
+  
   <body>
-    <a href= "https://spark-small-3000.codio.io/home/index" type="button" class="btn btn-primary"> Go Home</a>
     <%= yield %>
   </body>
+  
+  
 </html>
