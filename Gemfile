@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-source 'http://gems.github.com'
+# source 'http://gems.github.com'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
@@ -27,6 +27,11 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+
+# gem 'bootstrap-datepicker-rails'
+# gem 'bootstrap-datepicker-rails', :require => 'bootstrap-datepicker-rails',
+#                               :git => 'git://github.com/Nerian/bootstrap-datepicker-rails.git'
+gem 'datetime_picker_rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
