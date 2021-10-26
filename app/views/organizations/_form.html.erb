@@ -71,7 +71,8 @@
       <font color ="red">*</font>
     </div>
     <div class="col-sm-10">
-      <%= form.text_field :category %>
+<!--       <%= form.text_field :category %> -->
+      <%= form.select :category, ['Food', 'Advocacy', 'Garden', 'Education', 'Build', 'Relief', 'Health', 'Rescue', 'Other'] %>
     </div>
     
   </div>
